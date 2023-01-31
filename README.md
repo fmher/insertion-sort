@@ -1,18 +1,18 @@
-# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Selection Sort
+# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Insertion Sort
 
 ---
 
-Your task for this deliverable is to research and implement the `Selection Sort` Algorithm.
+Your task for this deliverable is to research and implement the `Insertion Sort` Algorithm.
 
 ## Getting Started
 
 * fork and clone this repo
-* use `sort.py` for your Selection sort implementation
+* use `sort.py` for your Insertion sort implementation
 * run `python3 sort.py` to check your work
 
 ## A little Background
 
-Selection sort is a `in place` [comparison sort](https://en.wikipedia.org/wiki/Comparison_sort), of the same breed as `bubble sort` and `insertion sort`. Selection sort has a high time complexity compared to some sorts, but a low space complexity and tends to be faster on large sets. It is suitable for situations where memery is a restricted resource.
+Insertion sort is a `in place` [comparison sort](https://en.wikipedia.org/wiki/Comparison_sort), of the same breed as `bubble sort` and `selection sort`. Insertion sort has a high time complexity compared to some sorts, but a low space complexity and tends to be faster on large sets. It is suitable for situations where memery is a restricted resource.
 
 > The algorithm divides the input list into two parts: a sorted sublist of items which is built up from left to right at the front (left) of the list and a sublist of the remaining unsorted items that occupy the rest of the list.
 > Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
